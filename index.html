@@ -11,7 +11,7 @@
             transition: background-color 0.3s, color 0.3s; /* Smooth transition */
         }
         h1 {
-            color: #333;
+            transition: color 0.3s; /* Smooth transition for h1 color */
         }
         a {
             display: block;
@@ -22,20 +22,24 @@
         a:hover {
             text-decoration: underline;
         }
-
         /* Light mode styles */
         @media (prefers-color-scheme: light) {
             body {
                 background-color: #ffffff;
                 color: #000000;
             }
+            h1 {
+                color: #333; /* Darker color for light mode */
+            }
         }
-
         /* Dark mode styles */
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #000000;
                 color: #ffffff;
+            }
+            h1 {
+                color: #ffffff; /* White color for dark mode */
             }
         }
     </style>
