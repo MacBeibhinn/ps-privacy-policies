@@ -53,13 +53,13 @@
     <p>We do not log or store any personal data or information. If you contact us via our support email (macbeibhinn@mail.scot), any information you may share with us is kept only for the purposes of researching the issue and contacting you about your case. No personal data or information is collected, any personal data voluntarily sent to our support email is deleted immediately.</p>
 
     <h2>Data Retention</h2>
-    <p>We may retain any information collected for as long as necessary to provide support, our services, or as required by law. We will delete any collected information upon request or when it is no longer needed.</p>
+    <p>We may retain any information collected for as long as necessary to provide support (support email data is deleted after the issue is resolved), our services, or as required by law. We will delete any collected information upon request or when it is no longer needed.</p>
 
     <h2>Data Sharing</h2>
-    <p>We do not share, sell, or rent any personal or collected information to third parties. Any data accessed is not stored or transmitted to third parties, in some cases where there is a crash or issue with the app we may log the relevant code to help improve our services. However, if possible, we may disclose any collected information in response to legal process or a request from a law enforcement agency or regulatory authority.</p>
+    <p>We do not share, sell, or rent any personal or collected information to third parties. Any data accessed is not stored or transmitted to third parties, in some cases where there is a crash or issue with the app we may log the relevant code to help improve our services, no personally identifiable information is logged. However, if possible, we may disclose any collected information in response to legal process or a request from a law enforcement agency or regulatory authority.</p>
 
     <h2>Security of Your Information</h2>
-    <p>While we do not store personal or collected data, we take reasonable measures to ensure that any data processed is handled securely. However, no security measure is perfect, and we cannot guarantee the security of any information.</p>
+    <p>While we do not store personal or collected data, we take reasonable measures to ensure that any data processed is handled securely. However, no security measure is perfect and no software is completely immune to vulnerabilities, therefor we cannot guarantee the security of any information.</p>
 
     <p>We do not log, store, or share any links or apps accessed by users. By using our app, you acknowledge that you are solely responsible for the links or apps you enter, store, or access through the app. We do not endorse or take responsibility for the content of any third-party websites or apps that may be accessed through the launcher.</p>
 
@@ -68,13 +68,17 @@
 
     <p>The following permissions may be requested:</p>
     
-        <p>• Query Installed Apps (QUERY_ALL_PACKAGES): Required to display a list of installed apps.</p>
+        <p>• Query Installed Apps (QUERY_ALL_PACKAGES): Required to display a list of installed apps. This data is only used to populate the app drawer(s) and any home page favorites/shortcuts, and to provide the user with a list of installed applications. This data is not used for any other purpose.</p>
     
         <p>• Bind App Widgets: Required to allow adding and managing widgets on the home screen.</p>
+
+        <p>• Vibrate (VIBRATE): Required to allow the app to trigger device vibration, which is only used to provide haptic feedback when clicking on views, opening pages, etc.</p>
+
+        <p>• Receive Boot Completed (RECEIVE_BOOT_COMPLETED): Required to allow the app to run smoothly and make any important adjustments when the device has booted.</p>
     
-        <p>• Request Delete Packages (REQUEST_DELETE_PACKAGES): Required for requesting to delete or uninstall apps.</p>
+        <p>• Request Delete Packages (REQUEST_DELETE_PACKAGES): Required for requesting to delete or uninstall apps, applications will only be requested for deletion if the user selects the 'Uninstall' option within the app.</p>
     
-        <p>• Set Wallpaper (SET_WALLPAPER): Required for choosing and setting the device wallpaper directly from the app</p>
+        <p>• Set Wallpaper (SET_WALLPAPER): Required for choosing and setting the device wallpaper directly from the app.</p>
     
         <p>• Notification Access (optional): Required to show notification dots (or badges), indicating app notifications. This access is used only to check the presence and count of notifications associated with each app, and this information is not stored or transmitted.</p>
     
